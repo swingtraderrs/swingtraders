@@ -7,6 +7,8 @@ import HomeIntermideateCard from "./homeCourseCards/homeIinterMideateCard";
 import HomeAdvancedCard from "./homeCourseCards/HomeAdvancedCard";
 import ContactForm from "./contactcomponents/contactform";
 import Footer from "./footer";
+import Feedback from "./feedbackcomponent/feedback";
+import Faq from "./homefaq";
 // import TeamSlider from "./teamComponents/teamslider";
 function Home(){
      const navigate = useNavigate();
@@ -34,7 +36,9 @@ function Home(){
              <HomeAdvancedCard/>
 
                <ContactForm/>
-           
+                <Feedback/>
+
+                 <Faq/>
                <Footer/>
 
      </>)

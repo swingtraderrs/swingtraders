@@ -1,83 +1,91 @@
 import React from 'react';
-
+import contactimage  from '../../images/contadtpageimage/contact.avif';
 function ContactForm() {
   return (
-    <div className="container-fluid d-flex align-items-center justify-content-center py-5 bg-light">
-      <div
-        className="container p-4 shadow-lg rounded bg-white"
-        style={{
-          maxWidth: '600px',
-          width: '100%', // Full width on small screens to avoid overflow
-          margin: '0 1rem' // Side spacing on small devices
-        }}
-      >
+    <div className="container-fluid py-5 bg-light">
+      <div className="container p-4 shadow-lg rounded bg-white">
         <h2 className="text-center mb-4">Contact Us</h2>
-        <form>
-          {/* Name Field */}
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">Name</label>
-            <input
-              type="text"
-              className="form-control"
-              id="name"
-              placeholder="Enter your name"
-              required
+        <div className="row">
+          {/* SVG Image Column */}
+          <div className="col-md-6 d-flex align-items-center justify-content-center mb-4 mb-md-0">
+            <img
+              src={contactimage} // Replace with your SVG image URL
+              alt="Contact Us"
+              className="img-fluid" // Make the image responsive
+              style={{ maxWidth: '80%' }} // Adjust max width as needed
             />
           </div>
 
-          {/* Email Field */}
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">Email</label>
-            <input
-              type="email"
-              className="form-control"
-              id="email"
-              placeholder="Enter your email"
-              required
-            />
-          </div>
+          {/* Form Column */}
+          <div className="col-md-6">
+            <form>
+              {/* Name Field */}
+              <div className="mb-3">
+                <label htmlFor="name" className="form-label">Name</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
 
-          {/* Phone Field */}
-          <div className="mb-3">
-            <label htmlFor="phone" className="form-label">Phone</label>
-            <input
-              type="tel"
-              className="form-control"
-              id="phone"
-              placeholder="Enter your phone number"
-              required
-            />
-          </div>
+              {/* Email Field */}
+              <div className="mb-3">
+                <label htmlFor="email" className="form-label">Email</label>
+                <input
+                  type="email"
+                  className="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
 
-          {/* Subject Field */}
-          <div className="mb-3">
-            <label htmlFor="subject" className="form-label">Subject</label>
-            <input
-              type="text"
-              className="form-control"
-              id="subject"
-              placeholder="Enter the subject"
-              required
-            />
-          </div>
+              {/* Phone Field */}
+              <div className="mb-3">
+                <label htmlFor="phone" className="form-label">Phone</label>
+                <input
+                  type="tel"
+                  className="form-control"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
 
-          {/* Query Field */}
-          <div className="mb-3">
-            <label htmlFor="query" className="form-label">Query</label>
-            <textarea
-              className="form-control"
-              id="query"
-              rows="4"
-              placeholder="Enter your query"
-              required
-            ></textarea>
-          </div>
+              {/* Subject Field */}
+              <div className="mb-3">
+                <label htmlFor="subject" className="form-label">Subject</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="subject"
+                  placeholder="Enter the subject"
+                  required
+                />
+              </div>
 
-          {/* Send Query Button */}
-          <div className="text-center">
-            <button type="submit" className="btn btn-primary px-4">Send Query</button>
+              {/* Query Field */}
+              <div className="mb-3">
+                <label htmlFor="query" className="form-label">Query</label>
+                <textarea
+                  className="form-control"
+                  id="query"
+                  rows="4"
+                  placeholder="Enter your query"
+                  required
+                ></textarea>
+              </div>
+
+              {/* Send Query Button */}
+              <div className="text-center">
+                <button type="submit" className="btn btn-primary px-4">Send Query</button>
+              </div>
+            </form>
           </div>
-        </form>
+        </div>
       </div>
     </div>
   );

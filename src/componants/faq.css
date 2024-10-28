@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.faq-container {
+    max-width: 600px; /* Adjust width for better responsiveness */
+    margin: auto; /* Center the container */
+}
+
+.faq-title {
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif; /* Font styling */
+    color: #000; /* Black text color for the title */
+}
+
+.faq-card {
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 15px; /* Space between cards */
+    background-color: #fff; /* White background for card */
+    transition: box-shadow 0.3s; /* Transition for hover effect */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.faq-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Hover shadow effect */
+}
+
+.faq-card-header {
+    background-color: transparent; /* No background color */
+    border-bottom: none; /* Remove bottom border */
+}
+
+.faq-btn {
+    color: #000; /* Black color for button text */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Font size */
+    padding: 15px; /* Add padding for better click area */
+    width: 100%; /* Full width button */
+    text-align: left; /* Align text to the left */
+}
+
+.faq-btn:hover {
+    text-decoration: none; /* Underline on hover */
+}
+
+.faq-card-body {
+    padding: 15px; /* Padding for the answer */
+    background-color: #fff; /* White background for answer */
+    border-radius: 0 0 8px 8px; /* Rounded corners at the bottom */
+}

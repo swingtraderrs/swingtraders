@@ -83,10 +83,10 @@ function Header() {
                                     Course
                                 </Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><Link className="dropdown-item" to="/niletcourse">Basic Courses</Link></li>
-                                    <li><Link className="dropdown-item" to="/basiccourse">Intermediate Courses</Link></li>
+                                    <li><Link className="dropdown-item" to="/basiccourse">Basic Courses</Link></li>
+                                    <li><Link className="dropdown-item" to="/intermideatecourse">Intermediate Courses</Link></li>
                                     <li><Link className="dropdown-item" to="/advancecourse">Advanced Courses</Link></li>
-                                    <li><Link className="dropdown-item" to="/totalcourseservice">View All Courses</Link></li>
+                                    <li><Link className="dropdown-item" to="/allcourse">View All Courses</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item mx-3">
@@ -135,10 +135,10 @@ function Header() {
                                         Course
                                     </Link>
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMobile">
-                                        <li><Link className="dropdown-item" to="/niletcourse">Basic Course</Link></li>
-                                        <li><Link className="dropdown-item" to="/basiccourse">Intermediate Courses</Link></li>
+                                        <li><Link className="dropdown-item" to="/basiccourse">Basic Course</Link></li>
+                                        <li><Link className="dropdown-item" to="/intermideatecourse">Intermediate Courses</Link></li>
                                         <li><Link className="dropdown-item" to="/advancecourse">Advanced Courses</Link></li>
-                                        <li><Link className="dropdown-item" to="/totalcourseservice">View All Courses</Link></li>
+                                        <li><Link className="dropdown-item" to="/allcourse">View All Courses</Link></li>
                                     </ul>
                                 </li>
                                 <li className="nav-item">

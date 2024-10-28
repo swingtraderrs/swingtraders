@@ -26,14 +26,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-  "extends": [
-    "react-app",
-    "react-app/jest"
-  ],
-  "rules": {
-    "no-unused-vars": "warn" 
-  }
-},
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn"
+    }
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "tailwindcss": "^3.4.14"
   }
 }

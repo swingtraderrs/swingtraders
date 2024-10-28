@@ -25,7 +25,7 @@ function Card({ title, text, image,navigateurl}) {
                     <div className="col-auto">
                         <button className="btn btn-danger text-light rounded" onClick={()=>{
                             navigate(`/enroll/${title}`);
-                        }}>Enroll Now</button>
+                        }}>Buy Now</button>
                     </div>
                 </div>
             </div>
