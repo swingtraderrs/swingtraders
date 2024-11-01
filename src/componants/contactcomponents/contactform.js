@@ -1,6 +1,28 @@
 import React from 'react';
 import contactimage  from '../../images/contadtpageimage/contact.avif';
+
+import { useState } from 'react';
+import e from 'express';
+
 function ContactForm() {
+
+  const [contactFormData,setContactFormData] = useState({
+       name:"",
+       email:"",
+       phone:"",
+       message:"",
+       subject:""
+  })
+
+  const inputhandler = (e) =>{
+      setContactFormData({...contactFormData,[e.target.name]:e.target.value});
+  }
+
+  const formHandler = ()=>{
+      e.preventDefault();
+    console.log(contactFormData);
+  }
+
   return (
     <div className="container-fluid py-5 bg-light">
       <div className="container p-4 shadow-lg rounded bg-white">
@@ -18,7 +40,7 @@ function ContactForm() {
 
           {/* Form Column */}
           <div className="col-md-6">
-            <form>
+            <form onSubmit={formHandler}>
               {/* Name Field */}
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name</label>
@@ -27,6 +49,10 @@ function ContactForm() {
                   className="form-control"
                   id="name"
                   placeholder="Enter your name"
+                  name='name'
+                  value={contactFormData.name}
+                  onChange={inputhandler}
+
                   required
                 />
               </div>
@@ -39,6 +65,10 @@ function ContactForm() {
                   className="form-control"
                   id="email"
                   placeholder="Enter your email"
+                  name='email'
+                  value={contactFormData.email}
+                  onChange={inputhandler}
+
                   required
                 />
               </div>
@@ -51,6 +81,10 @@ function ContactForm() {
                   className="form-control"
                   id="phone"
                   placeholder="Enter your phone number"
+                  name='phone'
+                  maxLength={10}
+                  value={contactFormData.phone}
+                  onChange={inputhandler}
                   required
                 />
               </div>
@@ -63,6 +97,9 @@ function ContactForm() {
                   className="form-control"
                   id="subject"
                   placeholder="Enter the subject"
+                  name='subject'
+                  value={contactFormData.subject}
+                  onChange={inputhandler}
                   required
                 />
               </div>
@@ -75,6 +112,9 @@ function ContactForm() {
                   id="query"
                   rows="4"
                   placeholder="Enter your query"
+                  name='message'
+                  value={contactFormData.message}
+                  onChange={inputhandler}
                   required
                 ></textarea>
               </div>
