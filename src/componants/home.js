@@ -9,6 +9,7 @@ import ContactForm from "./contactcomponents/contactform";
 import Footer from "./footer";
 import Feedback from "./feedbackcomponent/feedback";
 import Faq from "./homefaq";
+import Team from "./teamComponents/team";
 // import TeamSlider from "./teamComponents/teamslider";
 function Home(){
      const navigate = useNavigate();
@@ -37,7 +38,7 @@ function Home(){
 
                <ContactForm/>
                 <Feedback/>
-
+                <Team/>
                  <Faq/>
                <Footer/>
 
