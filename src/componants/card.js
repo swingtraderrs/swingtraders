@@ -4,12 +4,12 @@ function Card({ title, text, image,navigateurl}) {
     const navigate = useNavigate();
     return (
         <>
-            <div className="card my-sm-4 mx-auto text-black border my-3 border-secondary bg-body-light shadow-lg" style={{width:"90%", background:""}}>
+            <div className="card my-sm-4 mx-auto text-black border my-3  bg-body-light shadow-lg" style={{width:"100%", background:""}}>
                 <img 
                     className="card-img-top img-fluid" 
                     src={image} 
                      alt="Description"
-                    style={{ height: "200px", objectFit: "cover" }} // Ensures uniform image size
+                    style={{ height: "150px", objectFit: "cover" }} // Ensures uniform image size
                 />
                 <div className="card-body my-3">
                     <h5 className="card-title">{title}</h5>

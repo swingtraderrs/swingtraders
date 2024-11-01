@@ -1,6 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from '.././images/bannerImages/img1.jpg'
+import img2 from '../images/bannerImages/img2.jpg'
+import img3 from '../images/bannerImages/img3.jpg'
+import img4 from '../images/bannerImages/img4.jpg'
 
 const BannerCarousel = () => {
     return (
@@ -9,33 +12,33 @@ const BannerCarousel = () => {
                 <div className="carousel-item active">
                     <img 
                         src={img1} 
-                        className="d-block w-100" 
+                        className="d-block w-100 img-fluid" 
                         alt="Slide 1" 
-                        style={{ objectFit: 'cover', height: '75vh' }} // Adjust height for large devices
+                        style={{ objectFit: '100% 100%', height: '80vh' }} // Adjust height for large devices
                     />
                 </div>
                 <div className="carousel-item">
                     <img 
-                        src="https://assets.cntraveller.in/photos/65d87904d224970ac4f465cc/16:9/w_1024%2Cc_limit/COVER-BABY-ANIMALS.jpg" 
+                        src={img2}
                         className="d-block w-100" 
                         alt="Slide 2" 
-                        style={{ objectFit: 'cover', height: '75vh' }}
+                        style={{ objectFit: '100% 100%', height: '80vh' }}
                     />
                 </div>
                 <div className="carousel-item">
                     <img 
-                        src="https://via.placeholder.com/800x400.png?text=Slide+3" // Placeholder image
+                        src={img3} // Placeholder image
                         className="d-block w-100" 
                         alt="Slide 3" 
-                        style={{ objectFit: 'cover', height: '75vh' }}
+                        style={{ objectFit: '100% 100%', height: '80vh' }}
                     />
                 </div>
                 <div className="carousel-item">
                     <img 
-                        src="https://cdn.britannica.com/94/494-004-BAA096C7/Fallow-deer.jpg" 
+                        src={img4} 
                         className="d-block w-100" 
                         alt="Slide 4" 
-                        style={{ objectFit: 'cover', height: '75vh' }}
+                        style={{ objectFit: '100% 100%', height: '80vh' }}
                     />
                 </div>
                 <div className="carousel-item">

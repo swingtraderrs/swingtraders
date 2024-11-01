@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   return (
@@ -29,7 +30,7 @@ const Index = () => {
                 <div style={{ width: '100%', height: '180px', backgroundColor: '#f2f0f2', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                   <FaMapMarkerAlt size={30} />
                   <h5>Address</h5>
-                  <p>123 Main St, Anytown, USA</p>
+                  <p className='text-center'>The Nice Office,D-32, 2nd floor, Laxmi Nagar-110092</p>
                 </div>
               </div>
 
@@ -38,8 +39,8 @@ const Index = () => {
                 <div style={{ width: '100%', height: '180px', backgroundColor: '#f2f0f2', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                   <FaPhoneAlt size={30} />
                   <h5>Phone</h5>
-                  <p>(123) 456-7890</p>
-                  <p>(098) 765-4321</p>
+                  <p>(+91) 798-295-0691</p>
+                  <p>(+91) 971-720-6890</p>
                 </div>
               </div>
             </div>
@@ -50,8 +51,8 @@ const Index = () => {
                 <div style={{ width: '100%', height: '180px', backgroundColor: '#f2f0f2', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                   <FaEnvelope size={30} />
                   <h5>Email</h5>
-                  <p>info@example.com</p>
-                  <p>support@example.com</p>
+                  <p>info@swingtraderrs.com</p>
+                  <p>team@swingtraderrs.com</p>
                 </div>
               </div>
 
@@ -59,10 +60,10 @@ const Index = () => {
               <div className="col-6 mb-3">
                 <div style={{ width: '100%', height: '180px', backgroundColor: '#f2f0f2', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                   <div style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}>
-                    <FaFacebook size={20} />
-                    <FaInstagram size={20} />
-                    <FaWhatsapp size={20} />
-                    <FaYoutube size={20} />
+                     <Link to=""> <FaFacebook size={20} /></Link>
+                     <Link to="https://www.instagram.com/swingtraderrs?igsh=MTJtajNrY2ZkeTkxdw=="> <FaInstagram size={20} /></Link>
+                     <Link to="">  <FaWhatsapp size={20} /></Link>
+                     <Link to="https://youtube.com/@swingtraderrs?si=7ZFJeVonMz1cJw-o"> <FaYoutube size={20} /></Link>
                   </div>
                   <h5>Follow Us</h5>
                   <p>Stay connected with us on social media!</p>

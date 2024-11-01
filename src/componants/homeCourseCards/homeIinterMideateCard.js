@@ -14,7 +14,7 @@ function HomeIntermideateCard() {
                 <div className="container">
                     <div className="row d-md-flex d-block justify-content-evenly">
                         {/* First Row - Always Visible */}
-                        <div className="col-md-4 mt-0 mt-sm-3">
+                        <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="Graphic Design"
                                 navigateurl="/graphicdesign"
@@ -22,19 +22,27 @@ function HomeIntermideateCard() {
                                 image=""
                             />
                         </div>
-                        <div className="col-md-4 mt-0 mt-sm-3">
+                        <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="Full Stack Web Development"
                                 navigateurl="/webdevelopment"
-                                text="Build dynamic web applications by mastering frontend and backend skills."
+                                text="Build dynamic web applicatio backend skills."
                                 image=""
                             />
                         </div>
-                        <div className="col-md-4 mt-0 mt-sm-3">
+                        <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="Python"
                                 navigateurl="/python"
-                                text="Master programming concepts and features of Python for versatile applications."
+                                text="Master programming conceersatile applications."
+                                image=""
+                            />
+                        </div>
+                        <div className="col-md-3 mt-0 mt-sm-3">
+                            <Card
+                                title="Python"
+                                navigateurl="/python"
+                                text="Master programming concepts applications."
                                 image=""
                             />
                         </div>
@@ -43,27 +51,35 @@ function HomeIntermideateCard() {
                     {/* Second Row - Conditional Rendering */}
                     {showMore && (
                         <div className="row d-block d-md-flex justify-content-evenly mt-3">
-                            <div className="col-md-4 mt-0 mt-sm-3">
+                            <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="Graphic Design"
                                     navigateurl="/graphicdesign"
-                                    text="Explore the art of visual communication with creative design techniques."
+                                    text="Explore the art of visual coe design techniques."
                                     image=""
                                 />
                             </div>
-                            <div className="col-md-4 mt-0 mt-sm-3">
+                            <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="Full Stack Web Development"
                                     navigateurl="/webdevelopment"
-                                    text="Build dynamic web applications by mastering frontend and backend skills."
+                                    text="Build dynamic web applicaand backend skills."
                                     image=""
                                 />
                             </div>
-                            <div className="col-md-4 mt-0 mt-sm-3">
+                            <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="Python"
                                     navigateurl="/python"
-                                    text="Master programming concepts and features of Python for versatile applications."
+                                    text="Master programming concepts aile applications."
+                                    image=""
+                                />
+                            </div>
+                            <div className="col-md-3 mt-0 mt-sm-3">
+                                <Card
+                                    title="Python"
+                                    navigateurl="/python"
+                                    text="Master programming concepts  applications."
                                     image=""
                                 />
                             </div>

@@ -1,9 +1,7 @@
 import React from 'react';
 import contactimage  from '../../images/contadtpageimage/contact.avif';
-
+import axios from 'axios';
 import { useState } from 'react';
-import e from 'express';
-
 function ContactForm() {
 
   const [contactFormData,setContactFormData] = useState({
@@ -18,9 +16,18 @@ function ContactForm() {
       setContactFormData({...contactFormData,[e.target.name]:e.target.value});
   }
 
-  const formHandler = ()=>{
+  const formHandler = (e)=>{
       e.preventDefault();
     console.log(contactFormData);
+    axios.post("http://localhost:8000/api/user/contactmail",contactFormData)
+    .then((res)=>{
+      alert("Your message has been sent");
+       console.log(res)
+    })
+    .catch(()=>{
+        alert("email not sent")
+    })
+
   }
 
   return (

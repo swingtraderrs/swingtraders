@@ -37,9 +37,9 @@ function Home(){
              <HomeAdvancedCard/>
 
                <ContactForm/>
-                <Feedback/>
+                {/* <Feedback/> */}
                 <Team/>
-                 <Faq/>
+                 {/* <Faq/> */}
                <Footer/>
 
      </>)
