@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Link } from "react-router-dom";
 import { FaBars } from 'react-icons/fa';
-
+import logo from '.././images/logo/mainlogo.png'
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -17,8 +17,8 @@ function Header() {
             <nav className="navbar navbar-expand-md bg-light">
                 <div className="container-fluid d-md-flex justify-content-between align-items-center">
                     {/* Logo on medium and larger screens */}
-                    <Link className="navbar-brand d-block " to="#">
-                        <img src="path/to/your/logo.png" alt="Logo" style={{ height: '40px' }} />
+                    <Link className="navbar-brand d-block" to="#">
+                        <img src={logo} alt="Logo" style={{ height: '100px',marginTop:"-20px",marginBottom:'-20px'}} />
                     </Link>
 
                     {/* Search box and button for medium and larger screens */}

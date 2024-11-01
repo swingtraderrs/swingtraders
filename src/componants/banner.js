@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import img1 from '.././images/bannerImages/img1.jpg'
 
 const BannerCarousel = () => {
     return (
@@ -7,7 +8,7 @@ const BannerCarousel = () => {
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img 
-                        src="https://img.freepik.com/free-photo/animal-lizard-nature-multi-colored-close-up-generative-ai_188544-9072.jpg" 
+                        src={img1} 
                         className="d-block w-100" 
                         alt="Slide 1" 
                         style={{ objectFit: 'cover', height: '75vh' }} // Adjust height for large devices
