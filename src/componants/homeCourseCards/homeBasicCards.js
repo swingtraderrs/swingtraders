@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import Card from "../card";
-
+import stockmarketimage from '../../images/cardpageimages/basicimages/basic_of_stock_market.jpg'
+import coreconcept from '../../images/cardpageimages/basicimages/core_concept.jpg'
+import EquityMarketEssentials from '../../images/cardpageimages/basicimages/equitymarketessential.jpg'
+import stockmarketforbiginner from '../../images/cardpageimages/basicimages/stockmarketforbiginner.jpg'
+import  fundamentsofstockmarket from '../../images/cardpageimages/basicimages/fundamentsofstockmarket.jpg'
+import  understandingstockmarket from '../../images/cardpageimages/basicimages/understandingofstockmarket.jpg'
+import  basicoftechnicalanalysis from '../../images/cardpageimages/basicimages/basicoftechnicalAnalysis.jpg'
 function HomebasicCard() {
     const [showMore, setShowMore] = useState(false);
 
@@ -17,33 +23,33 @@ function HomebasicCard() {
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="BASIC OF STOCK MARKET"
-                                navigateurl="/graphicdesign"
+                                navigateurl="/basicOfStockMarket"
                                 text="Basics of Stock Market by SWINGTRADERRS: essential knowledge for beginners."
-                                image=""
+                                image={stockmarketimage}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="LEARN TO EQUITY MARKET ESSENTIALS"
-                                navigateurl="/webdevelopment"
+                                navigateurl="/equityMarketEssentials"
                                 text="Master essential concepts for successful equity market investing."
-                                image=""
+                                image={EquityMarketEssentials}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="CORE CONCEPTS OF STOCK INVESTING"
-                                navigateurl="/python"
+                                navigateurl="/coreConceptOfStockInvesting"
                                 text="Understand fundamental principles to enhance your stock investing strategy."
-                                image=""
+                                image={coreconcept}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="STOCK MARKET FOR BIGINNER'S"
-                                navigateurl="/python"
+                                navigateurl="/stockMarketForBiginners"
                                 text="Beginner's Stock Market Mastery: Learn to Invest Wisely and Confidently"
-                                image=""
+                                image={fundamentsofstockmarket}
                             />
                         </div>
                     </div>
@@ -54,23 +60,23 @@ function HomebasicCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="FUNDAMENTALS OF THE STOCK MARKET"
-                                    navigateurl="/graphicdesign"
+                                    navigateurl="/fundamentalStockMarket"
                                     text="Learn essential principles and strategies for stock market success"
-                                    image=""
+                                    image={fundamentsofstockmarket}
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="UNDERSTANDING OF STOCK MARKET ESSENTIALS"
-                                    navigateurl="/webdevelopment"
+                                    navigateurl="/understandingOfstockMarket"
                                     text="Gain essential insights into core principles of stock market"
-                                    image=""
+                                    image={understandingstockmarket}
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="NAVIGATING THE STOCK MARKET"
-                                    navigateurl="/python"
+                                    navigateurl="/navigatingStockMarket"
                                     text="Learn strategies for effectively navigating the stock market."
                                     image=""
                                 />
@@ -78,9 +84,9 @@ function HomebasicCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="BASIC OF TECHNICAL ANALYSIS"
-                                    navigateurl="/python"
+                                    navigateurl="/basicOfTechnicalAnalysis"
                                     text="Foundational concepts for mastering technical analysis fundamentals"
-                                    image=""
+                                    image={basicoftechnicalanalysis}
                                 />
                             </div>
                         </div>

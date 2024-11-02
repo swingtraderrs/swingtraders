@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
 import Card from "../card";
 
+import masteringinmoneymanagment from '../../images/cardpageimages/advanced/masteringinmoneymanagement.png';
+
+import artofinvestinginnutualfunds from '../../images/cardpageimages/advanced/artofinvestinginmutualfunds.png';
+import artoffutureandoptiontrading from '../../images/cardpageimages/advanced/artoffutureandoptiontrading.png';
+
 function HomeAdvancedCard() {
     const [showMore, setShowMore] = useState(false);
 
     const handleToggle = () => {
         setShowMore(!showMore);
     };
-
+    
+  
+    
     return (
         <>
             <div className="container-fluid py-4 bg-gray">
@@ -17,31 +24,31 @@ function HomeAdvancedCard() {
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="MASTRING MONEY MANGEMENT"
-                                navigateurl="/graphicdesign"
+                                navigateurl="/masteringMoneyManagement"
                                 text="Develop essential skills for effective money management strategies."
-                                image=""
+                                image={masteringinmoneymanagment}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="ART INVESTING IN MUTUAL FUND"
-                                navigateurl="/webdevelopment"
+                                navigateurl="/artInvestingInMutualFunds"
                                 text="Learn strategies for successful investing in mutual funds."
-                                image=""
+                                image={artofinvestinginnutualfunds}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="ART OF FUTURE AND OPTIONS"
-                                navigateurl="/python"
+                                navigateurl="/artOfFutureAndOptios"
                                 text="Master the strategies and techniques of futures and options trading."
-                                image=""
+                                image={artoffutureandoptiontrading}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="MASTER WITH PATTERNS"
-                                navigateurl="/python"
+                                navigateurl="/masterWithPattern"
                                 text="Master market patterns effectively for achieving consistent trading success and profitability."
                                 image=""
                             />
@@ -54,7 +61,7 @@ function HomeAdvancedCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="FUTURES & OPTIONS ALCHEMY"
-                                    navigateurl="/graphicdesign"
+                                    navigateurl="/futureAndOptionsAlchemy"
                                     text="Transform your trading skills with futures and options mastery."
                                     image=""
                                 />
@@ -62,7 +69,7 @@ function HomeAdvancedCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="THE F&O EDGE"
-                                    navigateurl="/webdevelopment"
+                                    navigateurl="/theEdge"
                                     text="The F&O Edge: Unlock essential strategies to enhance trading success and manage risks effectively."
                                     image=""
                                 />
@@ -70,7 +77,7 @@ function HomeAdvancedCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="UNLOCKING MARKET SECRETS"
-                                    navigateurl="/python"
+                                    navigateurl="/unlockingMarketSecret"
                                     text="Discover hidden strategies for successful market investing."
                                     image=""
                                 />
@@ -78,7 +85,7 @@ function HomeAdvancedCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="HEDGING HORIZONS"
-                                    navigateurl="/python"
+                                    navigateurl="/hedgingHorizons"
                                     text="Hedging Horizons: Discover techniques to mitigate risks while optimizing potential profits."
                                     image=""
                                 />

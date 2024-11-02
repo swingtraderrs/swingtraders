@@ -1,6 +1,12 @@
 import React, { useState } from 'react';
 import Card from "../card";
+import IntroductionToOptionTrading from '../../images/cardpageimages/intermideate/introductiontooptiontrading.jpg'
+import intermideateoptionstratigies from '../../images/cardpageimages/intermideate/intermideateoptionstratigies.jpg'
+import masterclassimage from '../../images/cardpageimages/intermideate/mastetrclassimage.jpg'
+import masteringofoptionchainimage from '../../images/cardpageimages/intermideate/masteringofoptonchain.jpg'
 
+import fandotradingimage from '../../images/cardpageimages/intermideate/fandotrading.jpg'
+import optiontradingtechnique from '../../images/cardpageimages/intermideate/optionstradingtechnique.jpg'
 function HomeIntermideateCard() {
     const [showMore, setShowMore] = useState(false);
 
@@ -17,33 +23,33 @@ function HomeIntermideateCard() {
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="INTRODUCTION TO OPTIONS TRADING"
-                                navigateurl="/graphicdesign"
+                                navigateurl="/introductionOptionTrading"
                                 text="Discover the essentials of options trading for beginners."
-                                image=""
+                                image={IntroductionToOptionTrading}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="INTERMEDIATE OPTIONS STRATEGIES"
-                                navigateurl="/webdevelopment"
+                                navigateurl="/intermideateOptionStratigies"
                                 text="Advanced techniques for effective options trading strategies"
-                                image=""
+                                image={intermideateoptionstratigies}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="OPTIONS ANALYSIS MASTERCLASS"
-                                navigateurl="/python"
+                                navigateurl="/optionAnalysisMasterclass"
                                 text="Comprehensive training for mastering options analysis techniques"
-                                image=""
+                                image={masterclassimage}
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
                                 title="ADVANCED OPTIONS AND FUTURES TRADING"
-                                navigateurl="/python"
+                                navigateurl="/advancedOptionAndFutureTrade"
                                 text="Expert strategies for advanced options and futures trading"
-                                image=""
+                                image={fandotradingimage}
                             />
                         </div>
                     </div>
@@ -54,7 +60,7 @@ function HomeIntermideateCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="INTERMEDIATE OPTIONS TRADING"
-                                    navigateurl="/graphicdesign"
+                                    navigateurl="/intermideateOptionTrading"
                                     text="Explore the art of visual coe design techniques."
                                     image="Skills and strategies for successful intermediate options trading"
                                 />
@@ -62,23 +68,23 @@ function HomeIntermideateCard() {
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="OPTIONS TRADING TECHNIQUES"
-                                    navigateurl="/webdevelopment"
+                                    navigateurl="/optionsTradingTechnique"
                                     text="Proven techniques for successful options trading strategies."
-                                    image=""
+                                    image={optiontradingtechnique}
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="MASTERING OPTIONS CHAIN"
-                                    navigateurl="/python"
+                                    navigateurl="/masteringOptionsChain"
                                     text="Comprehensive guide to understanding options chain dynamics."
-                                    image=""
+                                    image={masteringofoptionchainimage}
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
                                     title="HOW TO TRADE IN FUTURE & OPTIONS"
-                                    navigateurl="/python"
+                                    navigateurl="/howToTradeInFutureAndOptions"
                                     text="Unlock the secrets of trading futures and options effortlessly"
                                     image=""
                                 />
