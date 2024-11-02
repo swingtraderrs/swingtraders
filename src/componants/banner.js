@@ -1,9 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import img1 from '.././images/bannerImages/img1.jpg'
-import img2 from '../images/bannerImages/img2.jpg'
-import img3 from '../images/bannerImages/img3.jpg'
-import img4 from '../images/bannerImages/img4.jpg'
+// import img1 from '.././images/bannerImages/img1.jpg';
+import img1 from '../images/cardpageimages/intermideate/masteringofoptonchain.jpg'
+import img2 from '../images/cardpageimages/intermideate/introductiontooptiontrading.jpg'
+import img3 from '../images/cardpageimages/basicimages/core_concept.jpg'
+import img4 from '../images/cardpageimages/basicimages/basicoftechnicalAnalysis.jpg'
 
 const BannerCarousel = () => {
     return (
