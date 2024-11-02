@@ -16,33 +16,33 @@ function HomeIntermideateCard() {
                         {/* First Row - Always Visible */}
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Graphic Design"
+                                title="INTRODUCTION TO OPTIONS TRADING"
                                 navigateurl="/graphicdesign"
-                                text="Explore the art of visual communication with creative design techniques."
+                                text="Discover the essentials of options trading for beginners."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Full Stack Web Development"
+                                title="INTERMEDIATE OPTIONS STRATEGIES"
                                 navigateurl="/webdevelopment"
-                                text="Build dynamic web applicatio backend skills."
+                                text="Advanced techniques for effective options trading strategies"
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Python"
+                                title="OPTIONS ANALYSIS MASTERCLASS"
                                 navigateurl="/python"
-                                text="Master programming conceersatile applications."
+                                text="Comprehensive training for mastering options analysis techniques"
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Python"
+                                title="ADVANCED OPTIONS AND FUTURES TRADING"
                                 navigateurl="/python"
-                                text="Master programming concepts applications."
+                                text="Expert strategies for advanced options and futures trading"
                                 image=""
                             />
                         </div>
@@ -53,33 +53,33 @@ function HomeIntermideateCard() {
                         <div className="row d-block d-md-flex justify-content-evenly mt-3">
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Graphic Design"
+                                    title="INTERMEDIATE OPTIONS TRADING"
                                     navigateurl="/graphicdesign"
                                     text="Explore the art of visual coe design techniques."
-                                    image=""
+                                    image="Skills and strategies for successful intermediate options trading"
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Full Stack Web Development"
+                                    title="OPTIONS TRADING TECHNIQUES"
                                     navigateurl="/webdevelopment"
-                                    text="Build dynamic web applicaand backend skills."
+                                    text="Proven techniques for successful options trading strategies."
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Python"
+                                    title="MASTERING OPTIONS CHAIN"
                                     navigateurl="/python"
-                                    text="Master programming concepts aile applications."
+                                    text="Comprehensive guide to understanding options chain dynamics."
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Python"
+                                    title="HOW TO TRADE IN FUTURE & OPTIONS"
                                     navigateurl="/python"
-                                    text="Master programming concepts  applications."
+                                    text="Unlock the secrets of trading futures and options effortlessly"
                                     image=""
                                 />
                             </div>

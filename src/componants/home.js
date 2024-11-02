@@ -35,10 +35,10 @@ function Home(){
              <HomeIntermideateCard/>
              <h2 className="text-center py-3">Advanced Courses</h2>
              <HomeAdvancedCard/>
-
+             <Team/>
                <ContactForm/>
                 {/* <Feedback/> */}
-                <Team/>
+                
                  {/* <Faq/> */}
                <Footer/>
 

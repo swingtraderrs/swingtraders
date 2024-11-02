@@ -16,33 +16,33 @@ function HomebasicCard() {
                         {/* First Row - Always Visible */}
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Graphic Design"
+                                title="BASIC OF STOCK MARKET"
                                 navigateurl="/graphicdesign"
-                                text="Explore the art of visual  design techniques."
+                                text="Basics of Stock Market by SWINGTRADERRS: essential knowledge for beginners."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Full Stack Web Development"
+                                title="LEARN TO EQUITY MARKET ESSENTIALS"
                                 navigateurl="/webdevelopment"
-                                text="Build dynamic web applicad and backend skills."
+                                text="Master essential concepts for successful equity market investing."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Python"
+                                title="CORE CONCEPTS OF STOCK INVESTING"
                                 navigateurl="/python"
-                                text="Master programming concepts tile applications."
+                                text="Understand fundamental principles to enhance your stock investing strategy."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Python"
+                                title="STOCK MARKET FOR BIGINNER'S"
                                 navigateurl="/python"
-                                text="Master programming conceple applications."
+                                text="Beginner's Stock Market Mastery: Learn to Invest Wisely and Confidently"
                                 image=""
                             />
                         </div>
@@ -53,33 +53,33 @@ function HomebasicCard() {
                         <div className="row d-block d-md-flex justify-content-evenly mt-3">
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Graphic Design"
+                                    title="FUNDAMENTALS OF THE STOCK MARKET"
                                     navigateurl="/graphicdesign"
-                                    text="Explore the art of visual design techniques."
+                                    text="Learn essential principles and strategies for stock market success"
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Full Stack Web Development"
+                                    title="UNDERSTANDING OF STOCK MARKET ESSENTIALS"
                                     navigateurl="/webdevelopment"
-                                    text="Build dynamic web applica and backend skills."
+                                    text="Gain essential insights into core principles of stock market"
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Python"
+                                    title="NAVIGATING THE STOCK MARKET"
                                     navigateurl="/python"
-                                    text="Master programming conc versatile applications."
+                                    text="Learn strategies for effectively navigating the stock market."
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Python"
+                                    title="BASIC OF TECHNICAL ANALYSIS"
                                     navigateurl="/python"
-                                    text="Master programming cofor versatile applications."
+                                    text="Foundational concepts for mastering technical analysis fundamentals"
                                     image=""
                                 />
                             </div>

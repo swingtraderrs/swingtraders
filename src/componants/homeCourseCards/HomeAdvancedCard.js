@@ -16,33 +16,33 @@ function HomeAdvancedCard() {
                         {/* First Row - Always Visible */}
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Graphic Design"
+                                title="MASTRING MONEY MANGEMENT"
                                 navigateurl="/graphicdesign"
-                                text="Explore the art of visual design techniques."
+                                text="Develop essential skills for effective money management strategies."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Full Stack Web Development"
+                                title="ART INVESTING IN MUTUAL FUND"
                                 navigateurl="/webdevelopment"
-                                text="Build dynamic web applicatand backend skills."
+                                text="Learn strategies for successful investing in mutual funds."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Python"
+                                title="ART OF FUTURE AND OPTIONS"
                                 navigateurl="/python"
-                                text="Master programming concepts and frsatile applications."
+                                text="Master the strategies and techniques of futures and options trading."
                                 image=""
                             />
                         </div>
                         <div className="col-md-3 mt-0 mt-sm-3">
                             <Card
-                                title="Python"
+                                title="MASTER WITH PATTERNS"
                                 navigateurl="/python"
-                                text="Master programming coon for versatile applications."
+                                text="Master market patterns effectively for achieving consistent trading success and profitability."
                                 image=""
                             />
                         </div>
@@ -53,33 +53,33 @@ function HomeAdvancedCard() {
                         <div className="row d-block d-md-flex justify-content-evenly mt-3">
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Graphic Design"
+                                    title="FUTURES & OPTIONS ALCHEMY"
                                     navigateurl="/graphicdesign"
-                                    text="Explore the art creative design techniques."
+                                    text="Transform your trading skills with futures and options mastery."
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Full Stack Web Development"
+                                    title="THE F&O EDGE"
                                     navigateurl="/webdevelopment"
-                                    text="Build dynamic web antend and backend skills."
+                                    text="The F&O Edge: Unlock essential strategies to enhance trading success and manage risks effectively."
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Python"
+                                    title="UNLOCKING MARKET SECRETS"
                                     navigateurl="/python"
-                                    text="Master programming cofor versatile applications."
+                                    text="Discover hidden strategies for successful market investing."
                                     image=""
                                 />
                             </div>
                             <div className="col-md-3 mt-0 mt-sm-3">
                                 <Card
-                                    title="Python"
+                                    title="HEDGING HORIZONS"
                                     navigateurl="/python"
-                                    text="Master programming concepts and featur versatile applications."
+                                    text="Hedging Horizons: Discover techniques to mitigate risks while optimizing potential profits."
                                     image=""
                                 />
                             </div>

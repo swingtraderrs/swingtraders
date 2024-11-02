@@ -31,7 +31,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="container-fluid py-5 bg-light">
+    <div className="container-fluid py-5 bg-light my-4">
       <div className="container p-4 shadow-lg rounded bg-white">
         <h2 className="text-center mb-4">Contact Us</h2>
         <div className="row">
