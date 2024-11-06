@@ -1,46 +1,93 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+
 const Footer = () => {
   return (
     <>
-      <div className='container'>
-      <style>
-          {`
-            .container {
-              overflow: hidden; /* Prevents horizontal scrolling */
-            }
+      <div className='container-fluid bg-black text-white'>
+        <div className='container'>
+          <style>
+            {`
+              .container {
+                overflow: hidden; /* Prevents horizontal scrolling */
+              }
 
-            ul {
-              padding-left: 0; /* Remove default padding */
-            }
+              ul {
+                padding-left: 0; /* Remove default padding */
+              }
 
-            ul li {
-              margin-bottom: 10px; /* Add space between list items */
-            }
+              ul li {
+                margin-bottom: 10px; /* Add space between list items */
+              }
 
-            h5 {
-              margin-bottom: 10px; /* Space below headings */
-            }
+              h5 {
+                margin-bottom: 10px; /* Space below headings */
+              }
 
-            /* Remove text decoration from all Link components */
-            ul li a {
-              text-decoration: none; /* Remove default underline from links */
-              color: inherit; /* Make link color inherit from the parent */
-            }
+              /* Remove text decoration from all Link components */
+              ul li a {
+                text-decoration: none; /* Remove default underline from links */
+                color: inherit; /* Make link color inherit from the parent */
+              }
 
-            /* Optional: Change link color on hover */
-            ul li a:hover {
-              text-decoration: underline; /* Underline on hover for better UX */
-            }
-          `}
-        </style>
-        <div className='container-fluid'>
+              /* Optional: Change link color on hover */
+              ul li a:hover {
+                text-decoration: underline; /* Underline on hover for better UX */
+              }
+
+              .blog-card {
+                display: flex;
+                flex-direction: row; /* Horizontal layout for larger screens */
+                margin: 20px 0;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                overflow: hidden;
+                height: 200px; /* Adjust height for the blog card */
+              }
+
+              .blog-image {
+                width: 40%; /* Image takes 40% of the width on larger screens */
+                height: auto;
+              }
+
+              .blog-content {
+                padding: 10px; /* Reduced padding */
+                display: flex;
+                flex-direction: column; /* Content layout */
+                justify-content: center; /* Center content vertically */
+                height: 100%; /* Ensure it takes the full height */
+              }
+
+              .blog-title {
+                font-size: 20px; /* Reduced font size */
+                margin: 0;
+                line-height: 1.2; /* Reduced line height */
+              }
+
+              /* Responsive Styles */
+              @media (max-width: 768px) {
+                .blog-card {
+                  flex-direction: column; /* Stack elements for smaller screens */
+                  align-items: center; /* Center horizontally */
+                }
+
+                .blog-image {
+                  width: 100%; /* Full width for mobile */
+                }
+
+                .blog-content {
+                  text-align: center; /* Center text on mobile */
+                }
+              }
+            `}
+          </style>
+
           {/* First Row */}
           <div className='row d-flex justify-content-between py-4'>
             <div className='col-6'>
-              <button className='btn bg-black text-white text-center px-5'>Get Started</button><br />
-              <p>See Our Plans</p>
+              <button className='btn btn-light text-center px-5'>Get Started</button><br />
+              <p className='mx-4 px-3 mt-2'>See Our Plans</p>
             </div>
             <div className='col-6 text-end'>
               <p>0:00 AM to 6 PM, Monday - Friday Semurh <br />
@@ -123,115 +170,65 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </div>
-      <div className='container-fluid'>
-        <div className='container'>
+
+          {/* Blogs Section */}
           <div className='row'>
-               <div className='col-auto'>
-                   <h2>Blogs</h2>
-               </div>
+            <div className='col-auto'>
+              <h2>Blogs</h2>
+            </div>
+          </div>
+
+          {/* Blog Cards */}
+          <div className='blog-card'>
+            <img
+              src='https://via.placeholder.com/300' // Placeholder image URL
+              alt='Blog Post'
+              className='blog-image'
+            />
+            <div className='blog-content'>
+              <h2 className='blog-title'>
+                <Link to="/blog/post-title">Blog Post Title</Link>
+              </h2>
+              <p>
+                This is a brief description of the blog post. It provides a short overview of the content and invites users to read more.
+              </p>
+            </div>
+          </div>
+
+          <div className='blog-card'>
+            <img
+              src='https://via.placeholder.com/300' // Placeholder image URL
+              alt='Blog Post'
+              className='blog-image'
+            />
+            <div className='blog-content'>
+              <h2 className='blog-title'>
+                <Link to="/blog/post-title">Blog Post Title</Link>
+              </h2>
+              <p>
+                This is a brief description of the blog post. It provides a short overview of the content and invites users to read more.
+              </p>
+            </div>
+          </div>
+
+          {/* View More Link and Social Media Links */}
+          <h5><Link to="">View More Post</Link></h5>
+          <div className='d-flex justify-content-center gap-5 py-3'>
+            <Link to="">
+              <FaFacebook size={40} />
+            </Link>
+            <Link to="https://www.instagram.com/swingtraderrs?igsh=MTJtajNrY2ZkeTkxdw==">
+              <FaInstagram size={40} />
+            </Link>
+            <Link to="">
+              <FaWhatsapp size={40} />
+            </Link>
+            <Link to="https://youtube.com/@swingtraderrs?si=7ZFJeVonMz1cJw-o">
+              <FaYoutube size={40} />
+            </Link>
           </div>
         </div>
       </div>
-      <div className='container'>
-      <style>
-        {`
-          .blog-card {
-            display: flex;
-            flex-direction: row; /* Horizontal layout for larger screens */
-            margin: 20px 0;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            overflow: hidden;
-            height: 200px; /* Adjust height for the blog card */
-          }
-
-          .blog-image {
-            width: 40%; /* Image takes 40% of the width on larger screens */
-            height: auto;
-          }
-
-          .blog-content {
-            padding: 10px; /* Reduced padding */
-            display: flex;
-            flex-direction: column; /* Content layout */
-            justify-content: center; /* Center content vertically */
-            height: 100%; /* Ensure it takes the full height */
-          }
-
-          .blog-title {
-            font-size: 20px; /* Reduced font size */
-            margin: 0;
-            line-height: 1.2; /* Reduced line height */
-          }
-
-          /* Responsive Styles */
-          @media (max-width: 768px) {
-            .blog-card {
-              flex-direction: column; /* Stack elements for smaller screens */
-              align-items: center; /* Center horizontally */
-            }
-
-            .blog-image {
-              width: 100%; /* Full width for mobile */
-            }
-
-            .blog-content {
-              text-align: center; /* Center text on mobile */
-            }
-          }
-        `}
-      </style>
-
-      <div className='blog-card'>
-        <img
-          src='https://via.placeholder.com/300' // Placeholder image URL
-          alt='Blog Post'
-          className='blog-image'
-        />
-        <div className='blog-content'>
-          <h2 className='blog-title'>
-            <Link to="/blog/post-title">Blog Post Title</Link>
-          </h2>
-          <p>
-            This is a brief description of the blog post. It provides a short overview of the content and invites users to read more.
-          </p>
-        </div>
-        
-      </div>
-      <div className='blog-card'>
-        <img
-          src='https://via.placeholder.com/300' // Placeholder image URL
-          alt='Blog Post'
-          className='blog-image'
-        />
-        <div className='blog-content'>
-          <h2 className='blog-title'>
-            <Link to="/blog/post-title">Blog Post Title</Link>
-          </h2>
-          <p>
-            This is a brief description of the blog post. It provides a short overview of the content and invites users to read more.
-          </p>
-        </div>
-      </div>
-        <h5> <Link to="">View More Post</Link></h5>
-        <div className='d-flex justify-content-center gap-5 py-3'>
-      <Link to="">
-        <FaFacebook size={40} />
-      </Link>
-      <Link to="https://www.instagram.com/swingtraderrs?igsh=MTJtajNrY2ZkeTkxdw==">
-        <FaInstagram size={40} />
-      </Link>
-      <Link to="">
-        <FaWhatsapp size={40} />
-      </Link>
-      <Link to="https://youtube.com/@swingtraderrs?si=7ZFJeVonMz1cJw-o">
-        <FaYoutube size={40} />
-      </Link>
-    </div>
-    </div>
-       
     </>
   );
 };

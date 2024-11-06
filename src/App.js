@@ -6,6 +6,7 @@ import Home from "./componants/home";
 import About from "./componants/about";
 import Contact from "./componants/contact";
 import Error from "./componants/errorpage";
+import Blogs from "./componants/blogs";
 // basic course start 
 import BasicOfStockMarket from "./coursePages/basicCourse/basicOfStockMarket";
 import EquityMarketEssentials from "./coursePages/basicCourse/EquityMarketEssentials";
@@ -46,6 +47,7 @@ function App() {
           <Route path="/" element={<Home/>}></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contact" element={<Contact/>}></Route>
+          <Route path="/blogs" element={<Blogs/>}></Route>
           <Route path="*" element={<Error />} />
           <Route path="/basicOfStockMarket" element={<BasicOfStockMarket/>}/>
           <Route path="/equityMarketEssentials" element={<EquityMarketEssentials/>}/>
