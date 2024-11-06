@@ -3,6 +3,7 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import basicofstockimage from '../../images/cardpageimages/basicimages/basic_of_stock_market.jpg'
+import IntroVideos from "../../componants/introvideos";
 
 function BasicOfStockMarket(){
   
@@ -14,6 +15,11 @@ function BasicOfStockMarket(){
                  imageone = {basicofstockimage}
                  imagetwo = {basicofstockimage}
               />
+              <IntroVideos 
+        vone="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        vtwo="https://www.youtube.com/embed/3JZ_D3ELwOQ" 
+         topic = "BASIC OF STOCK MARKET"
+      />
          <Footer/>
        </>)
 }

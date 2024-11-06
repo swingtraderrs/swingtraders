@@ -3,6 +3,8 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import equitymarketessentials from '../../images/cardpageimages/basicimages/equitymarketessential.jpg'
+import IntroVideos from "../../componants/introvideos";
+
 function EquityMarketEssentials(){
   
        return(<>
@@ -14,6 +16,11 @@ function EquityMarketEssentials(){
                  imageone = {equitymarketessentials}
                  imagetwo = {equitymarketessentials}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

@@ -4,6 +4,8 @@ import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 
 import masteringinmoneymanagment from '../../images/cardpageimages/advanced/masteringinmoneymanagement.png';
+import IntroVideos from "../../componants/introvideos";
+
 function MasteringMoneyManagement(){
   
        return(<>
@@ -14,6 +16,11 @@ function MasteringMoneyManagement(){
                  imageone = {masteringinmoneymanagment}
                  imagetwo = {masteringinmoneymanagment}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

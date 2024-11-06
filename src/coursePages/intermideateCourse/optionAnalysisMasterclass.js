@@ -4,6 +4,7 @@ import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 
 import masterclassimage from '../../images/cardpageimages/intermideate/mastetrclassimage.jpg'
+import IntroVideos from "../../componants/introvideos";
 
 function OptionsAnalysisMasterclass(){
   
@@ -15,6 +16,11 @@ function OptionsAnalysisMasterclass(){
                  imageone = {masterclassimage}
                  imagetwo = {masterclassimage}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

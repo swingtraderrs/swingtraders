@@ -3,6 +3,7 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import image from '../../images/bannerImages/img1.jpg'
+import IntroVideos from "../../componants/introvideos";
 
 function IntermideateStockMarket(){
   
@@ -14,6 +15,11 @@ function IntermideateStockMarket(){
                  imageone = {image}
                  imagetwo = {image}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

@@ -3,6 +3,8 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import image from '../../images/bannerImages/img1.jpg'
+import IntroVideos from "../../componants/introvideos";
+
 
 function NavigatingStockMarket(){
   
@@ -14,6 +16,11 @@ function NavigatingStockMarket(){
                  imageone = {image}
                  imagetwo = {image}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

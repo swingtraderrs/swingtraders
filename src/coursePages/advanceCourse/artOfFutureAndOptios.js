@@ -4,6 +4,7 @@ import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 
 import artOfFutureAndOptiostraindg from '../../images/cardpageimages/advanced/artoffutureandoptiontrading.png';
+import IntroVideos from "../../componants/introvideos";
 
 function ArtOfFutureAndOptions(){
   
@@ -15,6 +16,11 @@ function ArtOfFutureAndOptions(){
                  imageone = {artOfFutureAndOptiostraindg}
                  imagetwo = {artOfFutureAndOptiostraindg}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

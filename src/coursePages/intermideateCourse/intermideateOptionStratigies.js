@@ -4,6 +4,7 @@ import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 
 import intermideateoptionstratigies from '../../images/cardpageimages/intermideate/intermideateoptionstratigies.jpg'
+import IntroVideos from "../../componants/introvideos";
 
 function IntermideateOptionStratiges(){
   
@@ -15,6 +16,11 @@ function IntermideateOptionStratiges(){
                  imageone = {intermideateoptionstratigies}
                  imagetwo = {intermideateoptionstratigies}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

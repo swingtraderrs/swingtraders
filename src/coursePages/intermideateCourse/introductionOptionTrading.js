@@ -3,6 +3,7 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import IntroductionToOptionTradingg from '../../images/cardpageimages/intermideate/introductiontooptiontrading.jpg'
+import IntroVideos from "../../componants/introvideos";
 
 function IntroductionToOptionTrading(){
   
@@ -14,6 +15,11 @@ function IntroductionToOptionTrading(){
                  imageone = {IntroductionToOptionTradingg}
                  imagetwo = {IntroductionToOptionTradingg}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

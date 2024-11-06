@@ -3,7 +3,7 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import coreconcept from '../../images/cardpageimages/basicimages/core_concept.jpg'
-
+import IntroVideos from "../../componants/introvideos";
 function CoreConceptOfStockInvesting(){
   
        return(<>
@@ -14,6 +14,12 @@ function CoreConceptOfStockInvesting(){
                  imageone = {coreconcept}
                  imagetwo = {coreconcept}
               />
+
+<IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

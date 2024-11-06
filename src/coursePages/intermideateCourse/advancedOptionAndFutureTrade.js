@@ -3,6 +3,7 @@ import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
 import fandotradingimage from '../../images/cardpageimages/intermideate/fandotrading.jpg'
+import IntroVideos from "../../componants/introvideos";
 
 function AdnacedOptionsAndFutureTrade(){
   
@@ -14,6 +15,11 @@ function AdnacedOptionsAndFutureTrade(){
                  imageone = {fandotradingimage}
                  imagetwo = {fandotradingimage}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

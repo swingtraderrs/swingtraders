@@ -2,8 +2,9 @@
 import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
-
 import  fundamentsofstockmarket from '../../images/cardpageimages/basicimages/fundamentsofstockmarket.jpg'
+import IntroVideos from "../../componants/introvideos";
+
 function FundamentalStockMarket(){
   
        return(<>
@@ -14,6 +15,11 @@ function FundamentalStockMarket(){
                  imageone = {fundamentsofstockmarket}
                  imagetwo = {fundamentsofstockmarket}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

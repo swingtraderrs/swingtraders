@@ -2,8 +2,8 @@
 import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
-
 import stockmarketforbiginner from '../../images/cardpageimages/basicimages/stockmarketforbiginner.jpg'
+import IntroVideos from "../../componants/introvideos";
 function StockMarketForBiginners(){
   
        return(<>
@@ -14,6 +14,11 @@ function StockMarketForBiginners(){
                  imageone = {stockmarketforbiginner}
                  imagetwo = {stockmarketforbiginner}
               />
+               <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }

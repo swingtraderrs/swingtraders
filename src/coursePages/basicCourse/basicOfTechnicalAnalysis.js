@@ -2,7 +2,7 @@
 import Header from "../../componants/header";
 import Footer from "../../componants/footer";
 import BannerForAll from "../../componants/bannerForAll";
-
+import IntroVideos from "../../componants/introvideos";
 import  basicoftechnicalanalysis from '../../images/cardpageimages/basicimages/basicoftechnicalAnalysis.jpg'
 function BasicOfTechnicalAnalysis(){
   
@@ -14,6 +14,12 @@ function BasicOfTechnicalAnalysis(){
                  imageone = {basicoftechnicalanalysis}
                  imagetwo = {basicoftechnicalanalysis}
               />
+
+    <IntroVideos 
+        vone="" 
+        vtwo="" 
+         topic = ""
+      />
          <Footer/>
        </>)
 }
